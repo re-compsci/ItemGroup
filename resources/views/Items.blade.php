@@ -15,7 +15,6 @@
         <h5 class="card-title">{{$row->itemName}}</h5>
             <p class="card-text">SAR {{$row->price}} </p>
             <p class="card-text">{{$row->color}}</p>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <a href="{{route('AddtoCart',['id'=>$row->id])}}" class="btn btn-primary">Add to cart</a>
        </div>
     </div>
